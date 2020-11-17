@@ -33,14 +33,15 @@
             this.tB = new System.Windows.Forms.TextBox();
             this.t1 = new System.Windows.Forms.TextBox();
             this.t2 = new System.Windows.Forms.TextBox();
+            this.title = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnGo
             // 
             this.btnGo.Font = new System.Drawing.Font("新細明體", 16F);
-            this.btnGo.Location = new System.Drawing.Point(499, 106);
+            this.btnGo.Location = new System.Drawing.Point(374, 105);
             this.btnGo.Name = "btnGo";
-            this.btnGo.Size = new System.Drawing.Size(95, 71);
+            this.btnGo.Size = new System.Drawing.Size(114, 145);
             this.btnGo.TabIndex = 0;
             this.btnGo.Text = "確認";
             this.btnGo.UseVisualStyleBackColor = true;
@@ -48,7 +49,7 @@
             // 
             // rTB
             // 
-            this.rTB.Location = new System.Drawing.Point(218, 163);
+            this.rTB.Location = new System.Drawing.Point(180, 155);
             this.rTB.Name = "rTB";
             this.rTB.Size = new System.Drawing.Size(171, 96);
             this.rTB.TabIndex = 1;
@@ -56,32 +57,50 @@
             // 
             // tB
             // 
-            this.tB.Location = new System.Drawing.Point(218, 106);
+            this.tB.Location = new System.Drawing.Point(180, 106);
             this.tB.Name = "tB";
             this.tB.Size = new System.Drawing.Size(171, 22);
             this.tB.TabIndex = 2;
             // 
             // t1
             // 
+            this.t1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.t1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.t1.Font = new System.Drawing.Font("新細明體", 16F);
-            this.t1.Location = new System.Drawing.Point(341, 40);
+            this.t1.Location = new System.Drawing.Point(12, 106);
             this.t1.Name = "t1";
-            this.t1.Size = new System.Drawing.Size(100, 33);
+            this.t1.Size = new System.Drawing.Size(162, 26);
             this.t1.TabIndex = 3;
             this.t1.Text = "請輸入你的名字:";
             // 
             // t2
             // 
-            this.t2.Location = new System.Drawing.Point(192, 49);
+            this.t2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.t2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.t2.Font = new System.Drawing.Font("新細明體", 16F);
+            this.t2.Location = new System.Drawing.Point(53, 167);
             this.t2.Name = "t2";
-            this.t2.Size = new System.Drawing.Size(100, 22);
+            this.t2.Size = new System.Drawing.Size(121, 26);
             this.t2.TabIndex = 4;
+            this.t2.Text = "你的評價為:";
+            // 
+            // title
+            // 
+            this.title.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.title.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.title.Font = new System.Drawing.Font("新細明體", 36F);
+            this.title.Location = new System.Drawing.Point(157, 28);
+            this.title.Name = "title";
+            this.title.Size = new System.Drawing.Size(297, 58);
+            this.title.TabIndex = 5;
+            this.title.Text = "姓名運勢分析";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(615, 322);
+            this.Controls.Add(this.title);
             this.Controls.Add(this.t2);
             this.Controls.Add(this.t1);
             this.Controls.Add(this.tB);
@@ -101,6 +120,7 @@
         private System.Windows.Forms.TextBox tB;
         private System.Windows.Forms.TextBox t1;
         private System.Windows.Forms.TextBox t2;
+        private System.Windows.Forms.TextBox title;
     }
 }
 
