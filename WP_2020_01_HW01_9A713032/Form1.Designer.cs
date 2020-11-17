@@ -41,7 +41,7 @@
             this.btnGo.Font = new System.Drawing.Font("新細明體", 16F);
             this.btnGo.Location = new System.Drawing.Point(374, 105);
             this.btnGo.Name = "btnGo";
-            this.btnGo.Size = new System.Drawing.Size(114, 145);
+            this.btnGo.Size = new System.Drawing.Size(166, 145);
             this.btnGo.TabIndex = 0;
             this.btnGo.Text = "確認";
             this.btnGo.UseVisualStyleBackColor = true;
@@ -49,6 +49,7 @@
             // 
             // rTB
             // 
+            this.rTB.Font = new System.Drawing.Font("新細明體", 16F);
             this.rTB.Location = new System.Drawing.Point(180, 155);
             this.rTB.Name = "rTB";
             this.rTB.Size = new System.Drawing.Size(171, 96);
@@ -57,9 +58,10 @@
             // 
             // tB
             // 
+            this.tB.Font = new System.Drawing.Font("新細明體", 16F);
             this.tB.Location = new System.Drawing.Point(180, 106);
             this.tB.Name = "tB";
-            this.tB.Size = new System.Drawing.Size(171, 22);
+            this.tB.Size = new System.Drawing.Size(171, 33);
             this.tB.TabIndex = 2;
             // 
             // t1
